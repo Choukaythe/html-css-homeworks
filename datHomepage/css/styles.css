@@ -143,6 +143,15 @@ li a {
     width: 1261px;
     display: inline-block;
     margin-bottom: 19px;
+    position: relative;
+}
+
+.mode p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
 }
 
 .food {
@@ -150,6 +159,7 @@ li a {
     height: 492px;
     width: 406px;
     display: inline-block;
+    position: relative;
 }
 
 main div {
@@ -171,6 +181,7 @@ main div {
     width: 407px;
     display: inline-block;
     margin-left: 18px;
+    position: relative;
 }
 
 .social {
