@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<svg version="1.1" width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="250" cy="250" r="100" fill="yellow" stroke="yellow" stroke-width="120"/>
+    <style>
+        circle {
+            stroke-dasharray: 6;
+            stroke-dashoffset: 100;
+            animation: load 2.5s linear infinite;
+
+        }
+
+        @keyframes load {
+            to {
+                stroke-dashoffset: 0;
+            }
+        }
+    </style>
+</svg>
+</body>
+</html>
